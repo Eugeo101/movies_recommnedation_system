@@ -54,7 +54,7 @@ Build an end-to-end recommendation system for movie recommendations using conten
 
 ---
 
-#### 6️⃣ Types of Usage  
+### 6️⃣ Types of Usage  
 - **Weighted Average Filtering** method was implemented to determine the **top 10 movies** based on implicit ratings (derived from user interactions such as clicks, views, time spent on the website, and movie length) and explicit ratings provided by users.  
 - **Content-Based** filtering is used if the user has clicked on a movie (e.g., based on movie features).  
 - **Collaborative Filtering** is used if the user has interacted with at least **100 items** (views, movie length, number of clicks, time on the website). This interaction data is used to calculate implicit ratings, which are then factored into the weighted average to recommend movies.
